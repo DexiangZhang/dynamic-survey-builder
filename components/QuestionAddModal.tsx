@@ -6,7 +6,7 @@ import { QuestionType } from "../utils/constants";
 import { v4 as uuidv4 } from "uuid";
 import { Plus, Trash2, X } from "lucide-react";
 
-// a default option for Multiple Choice
+// a default option for Multiple Choice and Text Input
 const createInitialDraft = () => ({
   name: "New Input Question",
   type: QuestionType.TEXT,
